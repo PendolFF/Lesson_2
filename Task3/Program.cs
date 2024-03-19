@@ -6,7 +6,7 @@ int i = 0;
 
 while (i < arr.Length)
 {
-    if (arr[i] % 2 == 0)
+    if (arr[i] % 2 == 0) //в некоторых языках программирования "%" это "mod"
     {
         Console.Write($"{arr[i]} ");
     }
